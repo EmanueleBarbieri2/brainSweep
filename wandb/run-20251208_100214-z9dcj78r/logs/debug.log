@@ -1,0 +1,23 @@
+2025-12-08 10:02:14,512 INFO    MainThread:16719 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_setup.py:_flush():80] Configure stats pid to 16719
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/.config/wandb/settings
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/Desktop/brainSweep/wandb/settings
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_100214-z9dcj78r/logs/debug.log
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_100214-z9dcj78r/logs/debug-internal.log
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_init.py:init():841] calling init triggers
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_init.py:init():846] wandb.init called with sweep_config: {}
+config: {'batch_size': 16, 'lr': 0.0003, 'epochs': 100, 'weight_decay': 0.0001, 'loss_type': 'clip', 'gnn_depth': 2, 'hidden_dim': 64, 'embed_dim': 32, 'gat_heads': 4, 'dropout': 0.5, 'aug_mode_fmri': 'mix', 'fmri_drop_prob': 0.2, 'fmri_jitter': 0.05, 'aug_mode_dti': 'mask_edges', 'dti_drop_prob': 0.1, 'dti_jitter': 0.01, 'recon_weight': 0, 'vicreg_lambda': 25.0, 'vicreg_mu': 25.0, 'vicreg_nu': 1.0, 'project_name': 'brain-clip-sweep', '_wandb': {}}
+2025-12-08 10:02:14,513 INFO    MainThread:16719 [wandb_init.py:init():889] starting backend
+2025-12-08 10:02:14,721 INFO    MainThread:16719 [wandb_init.py:init():892] sending inform_init request
+2025-12-08 10:02:14,722 INFO    MainThread:16719 [wandb_init.py:init():900] backend started and connected
+2025-12-08 10:02:14,728 INFO    MainThread:16719 [wandb_init.py:init():970] updated telemetry
+2025-12-08 10:02:14,729 INFO    MainThread:16719 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-08 10:02:15,441 INFO    MainThread:16719 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-08 10:02:15,466 INFO    MainThread:16719 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-08 10:02:15,466 INFO    MainThread:16719 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-08 10:02:15,466 INFO    MainThread:16719 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-08 10:02:15,466 INFO    MainThread:16719 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-08 10:02:15,467 INFO    MainThread:16719 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-08 10:02:46,238 INFO    wandb-AsyncioManager-main:16719 [service_client.py:_forward_responses():80] Reached EOF.
+2025-12-08 10:02:46,238 INFO    wandb-AsyncioManager-main:16719 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

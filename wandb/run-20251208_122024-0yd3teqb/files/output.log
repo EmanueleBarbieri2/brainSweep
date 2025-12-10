@@ -1,0 +1,28 @@
+--- BrainCLIP Flatten GNN ---
+Loss: clip | Sparsity: 0 | Dropout: 0.4
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Ep 005 | Loss: 2.8991 | Val Top-5: 12.5%
+Ep 010 | Loss: 2.8644 | Val Top-5: 9.4%
+Ep 015 | Loss: 2.8577 | Val Top-5: 12.5%
+Ep 020 | Loss: 2.8345 | Val Top-5: 15.6%
+Ep 025 | Loss: 2.6801 | Val Top-5: 9.4%
+Ep 030 | Loss: 2.5100 | Val Top-5: 6.2%
+Ep 035 | Loss: 2.5151 | Val Top-5: 28.1%
+Ep 040 | Loss: 2.3075 | Val Top-5: 25.0%
+Ep 045 | Loss: 2.3631 | Val Top-5: 12.5%
+Ep 050 | Loss: 2.2757 | Val Top-5: 18.8%
+Ep 055 | Loss: 2.2782 | Val Top-5: 18.8%
+Ep 060 | Loss: 2.2027 | Val Top-5: 21.9%
+Ep 065 | Loss: 2.1943 | Val Top-5: 21.9%
+Ep 070 | Loss: 2.1259 | Val Top-5: 28.1%
+Ep 075 | Loss: 2.1287 | Val Top-5: 21.9%
+Ep 080 | Loss: 2.1490 | Val Top-5: 25.0%
+Ep 085 | Loss: 2.1423 | Val Top-5: 25.0%
+Ep 090 | Loss: 2.0809 | Val Top-5: 25.0%
+Ep 095 | Loss: 1.9569 | Val Top-5: 25.0%
+Ep 100 | Loss: 2.0192 | Val Top-5: 25.0%

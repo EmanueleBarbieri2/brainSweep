@@ -1,0 +1,34 @@
+wandb_version: 1
+
+aug_mode_dti:
+  value: mask_edges
+aug_mode_fmri:
+  value: mix
+batch_size:
+  value: 16
+dropout:
+  value: 0.6
+dti_drop_prob:
+  value: 0.1454976510812017
+dti_jitter:
+  value: 0.003842396850611113
+embed_dim:
+  value: 16
+epochs:
+  value: 100
+fmri_drop_prob:
+  value: 0.18918962853404608
+fmri_jitter:
+  value: 0.04248954322632776
+gat_heads:
+  value: 8
+gnn_depth:
+  value: 1
+hidden_dim:
+  value: 64
+lr:
+  value: 0.0005
+recon_weight:
+  value: 0.5
+weight_decay:
+  value: 0.0001

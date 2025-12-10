@@ -1,0 +1,27 @@
+2025-12-08 13:44:48,039 INFO    MainThread:135196 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_setup.py:_flush():80] Configure stats pid to 135196
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/.config/wandb/settings
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/Desktop/brainSweep/wandb/settings
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_134448-gowyu6kp/logs/debug.log
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_134448-gowyu6kp/logs/debug-internal.log
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_init.py:init():841] calling init triggers
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_init.py:init():846] wandb.init called with sweep_config: {'aug_mode': 'mix', 'batch_size': 16, 'drop_prob': 0.3530530248371918, 'dropout': 0.6, 'embed_dim': 32, 'epochs': 100, 'gat_heads': 2, 'gnn_depth': 1, 'hidden_dim': 64, 'jitter': 0.04800792406420594, 'loss_type': 'vicreg', 'lr': 0.0001, 'recon_weight': 0.1, 'sparsity': 0, 'weight_decay': 0.001}
+config: {'batch_size': 16, 'lr': 0.0001, 'epochs': 100, 'weight_decay': 0.001, 'loss_type': 'vicreg', 'gnn_depth': 1, 'hidden_dim': 64, 'embed_dim': 32, 'gat_heads': 2, 'dropout': 0.6, 'sparsity': 0.0, 'aug_mode': 'mix', 'drop_prob': 0.3530530248371918, 'jitter': 0.04800792406420594, 'recon_weight': 0.1, 'vicreg_lambda': 25.0, 'vicreg_mu': 25.0, 'vicreg_nu': 1.0, 'project_name': 'brain-clip-sweep', '_wandb': {}}
+2025-12-08 13:44:48,040 INFO    MainThread:135196 [wandb_init.py:init():889] starting backend
+2025-12-08 13:44:48,249 INFO    MainThread:135196 [wandb_init.py:init():892] sending inform_init request
+2025-12-08 13:44:48,250 INFO    MainThread:135196 [wandb_init.py:init():900] backend started and connected
+2025-12-08 13:44:48,251 INFO    MainThread:135196 [wandb_run.py:_config_callback():1396] config_cb None None {'aug_mode': 'mix', 'batch_size': 16, 'drop_prob': 0.3530530248371918, 'dropout': 0.6, 'embed_dim': 32, 'epochs': 100, 'gat_heads': 2, 'gnn_depth': 1, 'hidden_dim': 64, 'jitter': 0.04800792406420594, 'loss_type': 'vicreg', 'lr': 0.0001, 'recon_weight': 0.1, 'sparsity': 0, 'weight_decay': 0.001}
+2025-12-08 13:44:48,251 INFO    MainThread:135196 [wandb_init.py:init():970] updated telemetry
+2025-12-08 13:44:48,251 INFO    MainThread:135196 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-08 13:44:48,785 INFO    MainThread:135196 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-08 13:44:48,811 INFO    MainThread:135196 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-08 13:44:48,811 INFO    MainThread:135196 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-08 13:44:48,812 INFO    MainThread:135196 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-08 13:44:48,812 INFO    MainThread:135196 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-08 13:44:48,813 INFO    MainThread:135196 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-08 13:47:29,584 INFO    MainThread:135196 [wandb_run.py:_finish():2287] finishing run emanuele-barbieri2-politecnico-di-torino/uncategorized/gowyu6kp
+2025-12-08 13:47:29,585 INFO    MainThread:135196 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-08 13:47:29,585 INFO    MainThread:135196 [wandb_run.py:_restore():2468] restore
+2025-12-08 13:47:29,586 INFO    MainThread:135196 [wandb_run.py:_restore():2474] restore done
+2025-12-08 13:47:30,461 INFO    MainThread:135196 [wandb_run.py:_footer_sync_info():3862] logging synced files

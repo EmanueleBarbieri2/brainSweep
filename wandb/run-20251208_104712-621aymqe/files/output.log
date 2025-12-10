@@ -1,0 +1,28 @@
+--- BrainCLIP MLP ---
+Loss: clip | Hidden: 2048 | Sparsity: 0.2
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Ep 005 | Loss: 4.3839 | Val Top-5: 18.8%
+Ep 010 | Loss: 3.3821 | Val Top-5: 12.5%
+Ep 015 | Loss: 2.2591 | Val Top-5: 15.6%
+Ep 020 | Loss: 1.4457 | Val Top-5: 12.5%
+Ep 025 | Loss: 1.2822 | Val Top-5: 12.5%
+Ep 030 | Loss: 0.7571 | Val Top-5: 15.6%
+Ep 035 | Loss: 0.6486 | Val Top-5: 15.6%
+Ep 040 | Loss: 0.4727 | Val Top-5: 15.6%
+Ep 045 | Loss: 0.4476 | Val Top-5: 15.6%
+Ep 050 | Loss: 0.3094 | Val Top-5: 15.6%
+Ep 055 | Loss: 0.3457 | Val Top-5: 18.8%
+Ep 060 | Loss: 0.2176 | Val Top-5: 21.9%
+Ep 065 | Loss: 0.2576 | Val Top-5: 18.8%
+Ep 070 | Loss: 0.2317 | Val Top-5: 15.6%
+Ep 075 | Loss: 0.2081 | Val Top-5: 21.9%
+Ep 080 | Loss: 0.2167 | Val Top-5: 15.6%
+Ep 085 | Loss: 0.2482 | Val Top-5: 15.6%
+Ep 090 | Loss: 0.2849 | Val Top-5: 9.4%
+Ep 095 | Loss: 0.2077 | Val Top-5: 15.6%
+Ep 100 | Loss: 0.1790 | Val Top-5: 15.6%

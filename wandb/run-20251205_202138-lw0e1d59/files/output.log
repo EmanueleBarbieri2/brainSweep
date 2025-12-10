@@ -1,0 +1,28 @@
+--- BrainCLIP Sweep ---
+Depth: 1 | Recon W: 0.1 | fMRI Drop: 0.10301401115883042
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Ep 005 | Loss: 2.9283 | Val Top-5: 15.6%
+Ep 010 | Loss: 2.9306 | Val Top-5: 15.6%
+Ep 015 | Loss: 2.8973 | Val Top-5: 15.6%
+Ep 020 | Loss: 2.9093 | Val Top-5: 15.6%
+Ep 025 | Loss: 2.8999 | Val Top-5: 15.6%
+Ep 030 | Loss: 2.8978 | Val Top-5: 15.6%
+Ep 035 | Loss: 2.8958 | Val Top-5: 15.6%
+Ep 040 | Loss: 2.8897 | Val Top-5: 15.6%
+Ep 045 | Loss: 2.8883 | Val Top-5: 15.6%
+Ep 050 | Loss: 2.8767 | Val Top-5: 15.6%
+Ep 055 | Loss: 2.8874 | Val Top-5: 15.6%
+Ep 060 | Loss: 2.8829 | Val Top-5: 15.6%
+Ep 065 | Loss: 2.8857 | Val Top-5: 15.6%
+Ep 070 | Loss: 2.8844 | Val Top-5: 15.6%
+Ep 075 | Loss: 2.8860 | Val Top-5: 15.6%
+Ep 080 | Loss: 2.8815 | Val Top-5: 15.6%
+Ep 085 | Loss: 2.8813 | Val Top-5: 15.6%
+Ep 090 | Loss: 2.8812 | Val Top-5: 15.6%
+Ep 095 | Loss: 2.8813 | Val Top-5: 15.6%
+Ep 100 | Loss: 2.8835 | Val Top-5: 15.6%

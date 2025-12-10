@@ -1,0 +1,12 @@
+{"time":"2025-12-08T13:03:57.105843764+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-08T13:03:57.361508531+01:00","level":"INFO","msg":"stream: created new stream","id":"vluge7ly"}
+{"time":"2025-12-08T13:03:57.361544279+01:00","level":"INFO","msg":"handler: started","stream_id":"vluge7ly"}
+{"time":"2025-12-08T13:03:57.361577171+01:00","level":"INFO","msg":"stream: started","id":"vluge7ly"}
+{"time":"2025-12-08T13:03:57.361586219+01:00","level":"INFO","msg":"writer: started","stream_id":"vluge7ly"}
+{"time":"2025-12-08T13:03:57.361590897+01:00","level":"INFO","msg":"sender: started","stream_id":"vluge7ly"}
+{"time":"2025-12-08T13:09:07.137351496+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-08T13:09:07.40598675+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-08T13:09:07.407239896+01:00","level":"INFO","msg":"stream: closing","id":"vluge7ly"}
+{"time":"2025-12-08T13:09:07.407247159+01:00","level":"INFO","msg":"handler: closed","stream_id":"vluge7ly"}
+{"time":"2025-12-08T13:09:07.40726838+01:00","level":"INFO","msg":"sender: closed","stream_id":"vluge7ly"}
+{"time":"2025-12-08T13:09:07.407272007+01:00","level":"INFO","msg":"stream: closed","id":"vluge7ly"}

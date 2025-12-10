@@ -1,0 +1,12 @@
+{"time":"2025-12-08T11:01:16.497589445+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-08T11:01:16.754558755+01:00","level":"INFO","msg":"stream: created new stream","id":"lg62gyvr"}
+{"time":"2025-12-08T11:01:16.754610313+01:00","level":"INFO","msg":"handler: started","stream_id":"lg62gyvr"}
+{"time":"2025-12-08T11:01:16.754812226+01:00","level":"INFO","msg":"stream: started","id":"lg62gyvr"}
+{"time":"2025-12-08T11:01:16.754810002+01:00","level":"INFO","msg":"writer: started","stream_id":"lg62gyvr"}
+{"time":"2025-12-08T11:01:16.754826253+01:00","level":"INFO","msg":"sender: started","stream_id":"lg62gyvr"}
+{"time":"2025-12-08T11:02:06.376873235+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-08T11:02:06.60960129+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-08T11:02:06.610942015+01:00","level":"INFO","msg":"stream: closing","id":"lg62gyvr"}
+{"time":"2025-12-08T11:02:06.610949339+01:00","level":"INFO","msg":"handler: closed","stream_id":"lg62gyvr"}
+{"time":"2025-12-08T11:02:06.61097611+01:00","level":"INFO","msg":"sender: closed","stream_id":"lg62gyvr"}
+{"time":"2025-12-08T11:02:06.610980609+01:00","level":"INFO","msg":"stream: closed","id":"lg62gyvr"}

@@ -1,0 +1,22 @@
+wandb_version: 1
+
+aug_mode:
+  value: mix
+batch_size:
+  value: 64
+drop_prob:
+  value: 0.17272983108596324
+dropout:
+  value: 0.7
+embed_dim:
+  value: 64
+epochs:
+  value: 100
+hidden_dim:
+  value: 1024
+loss_type:
+  value: vicreg
+lr:
+  value: 0.001
+sparsity:
+  value: 0

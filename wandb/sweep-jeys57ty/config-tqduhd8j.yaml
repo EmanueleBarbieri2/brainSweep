@@ -1,0 +1,32 @@
+wandb_version: 1
+
+aug_mode:
+  value: jitter
+batch_size:
+  value: 32
+drop_prob:
+  value: 0.18497911359652092
+dropout:
+  value: 0.6
+embed_dim:
+  value: 32
+epochs:
+  value: 100
+gat_heads:
+  value: 4
+gnn_depth:
+  value: 1
+hidden_dim:
+  value: 32
+jitter:
+  value: 0.049329092320542944
+loss_type:
+  value: clip
+lr:
+  value: 0.001
+recon_weight:
+  value: 0.1
+sparsity:
+  value: 0
+weight_decay:
+  value: 0.001

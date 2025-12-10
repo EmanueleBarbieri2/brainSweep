@@ -1,0 +1,27 @@
+2025-12-08 11:06:55,033 INFO    MainThread:56914 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-08 11:06:55,033 INFO    MainThread:56914 [wandb_setup.py:_flush():80] Configure stats pid to 56914
+2025-12-08 11:06:55,033 INFO    MainThread:56914 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/.config/wandb/settings
+2025-12-08 11:06:55,033 INFO    MainThread:56914 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/Desktop/brainSweep/wandb/settings
+2025-12-08 11:06:55,033 INFO    MainThread:56914 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-08 11:06:55,033 INFO    MainThread:56914 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_110655-m4t3sxln/logs/debug.log
+2025-12-08 11:06:55,034 INFO    MainThread:56914 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_110655-m4t3sxln/logs/debug-internal.log
+2025-12-08 11:06:55,034 INFO    MainThread:56914 [wandb_init.py:init():841] calling init triggers
+2025-12-08 11:06:55,034 INFO    MainThread:56914 [wandb_init.py:init():846] wandb.init called with sweep_config: {'aug_mode': 'mix', 'batch_size': 64, 'drop_prob': 0.15551337518637168, 'dropout': 0.7, 'embed_dim': 64, 'epochs': 100, 'hidden_dim': 1024, 'loss_type': 'vicreg', 'lr': 0.001, 'sparsity': 0}
+config: {'loss_type': 'vicreg', 'batch_size': 64, 'lr': 0.001, 'epochs': 100, 'weight_decay': 0.0001, 'hidden_dim': 1024, 'embed_dim': 64, 'dropout': 0.7, 'aug_mode': 'mix', 'drop_prob': 0.15551337518637168, 'jitter': 0.05, 'sparsity': 0.0, 'vicreg_lambda': 25.0, 'vicreg_mu': 25.0, 'vicreg_nu': 1.0, '_wandb': {}}
+2025-12-08 11:06:55,034 INFO    MainThread:56914 [wandb_init.py:init():889] starting backend
+2025-12-08 11:06:55,241 INFO    MainThread:56914 [wandb_init.py:init():892] sending inform_init request
+2025-12-08 11:06:55,243 INFO    MainThread:56914 [wandb_init.py:init():900] backend started and connected
+2025-12-08 11:06:55,243 INFO    MainThread:56914 [wandb_run.py:_config_callback():1396] config_cb None None {'aug_mode': 'mix', 'batch_size': 64, 'drop_prob': 0.15551337518637168, 'dropout': 0.7, 'embed_dim': 64, 'epochs': 100, 'hidden_dim': 1024, 'loss_type': 'vicreg', 'lr': 0.001, 'sparsity': 0}
+2025-12-08 11:06:55,244 INFO    MainThread:56914 [wandb_init.py:init():970] updated telemetry
+2025-12-08 11:06:55,244 INFO    MainThread:56914 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-08 11:06:55,781 INFO    MainThread:56914 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-08 11:06:55,807 INFO    MainThread:56914 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-08 11:06:55,807 INFO    MainThread:56914 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-08 11:06:55,807 INFO    MainThread:56914 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-08 11:06:55,807 INFO    MainThread:56914 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-08 11:06:55,808 INFO    MainThread:56914 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-08 11:07:39,883 INFO    MainThread:56914 [wandb_run.py:_finish():2287] finishing run emanuele-barbieri2-politecnico-di-torino/uncategorized/m4t3sxln
+2025-12-08 11:07:39,883 INFO    MainThread:56914 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-08 11:07:39,883 INFO    MainThread:56914 [wandb_run.py:_restore():2468] restore
+2025-12-08 11:07:39,883 INFO    MainThread:56914 [wandb_run.py:_restore():2474] restore done
+2025-12-08 11:07:40,799 INFO    MainThread:56914 [wandb_run.py:_footer_sync_info():3862] logging synced files

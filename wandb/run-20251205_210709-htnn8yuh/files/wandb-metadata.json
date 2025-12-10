@@ -1,0 +1,69 @@
+{
+  "os":  "Linux-6.14.0-36-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-12-05T20:07:09.466574Z",
+  "args":  [
+    "--aug_mode_dti=jitter",
+    "--aug_mode_fmri=jitter",
+    "--batch_size=32",
+    "--dropout=0.5",
+    "--dti_drop_prob=0.07955339872276533",
+    "--dti_jitter=0.034042259757144616",
+    "--embed_dim=32",
+    "--epochs=100",
+    "--fmri_drop_prob=0.15800327349748336",
+    "--fmri_jitter=0.02986706490776958",
+    "--gat_heads=2",
+    "--gnn_depth=3",
+    "--hidden_dim=64",
+    "--lr=0.001",
+    "--recon_weight=0.1",
+    "--weight_decay=0.001"
+  ],
+  "program":  "/home/emanuele/Desktop/brainSweep/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "emanuele.barbieri2@yahoo.it",
+  "root":  "/home/emanuele/Desktop/brainSweep",
+  "host":  "emanuele-X870-EAGLE-WIFI7",
+  "executable":  "/home/emanuele/Desktop/brainSweep/.venv/bin/python",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "AMD Radeon Graphics",
+  "gpu_count":  2,
+  "disk":  {
+    "/":  {
+      "total":  "1966736678912",
+      "used":  "895470493696"
+    }
+  },
+  "memory":  {
+    "total":  "32713289728"
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0",
+      "uniqueId":  "0xdebe3b5d819cf9c6",
+      "vbiosVersion":  "113-44TC6SHB1-P03",
+      "performanceLevel":  "auto",
+      "maxPower":  "182.0",
+      "series":  "AMD Radeon Graphics",
+      "model":  "0x7590",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "44TC6SHB1"
+    },
+    {
+      "id":  "1",
+      "uniqueId":  "N/A",
+      "vbiosVersion":  "102-RAPHAEL-008",
+      "performanceLevel":  "auto",
+      "series":  "AMD Radeon Graphics",
+      "model":  "0x13c0",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "RAPHAEL",
+      "sclkRange":  "600Mhz - 2200Mhz",
+      "mclkRange":  "0Mhz - 0Mhz"
+    }
+  ],
+  "writerId":  "nslet57i9k1fmfotzk0qllf6vnoyz87p"
+}

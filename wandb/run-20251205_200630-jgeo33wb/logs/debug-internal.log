@@ -1,0 +1,12 @@
+{"time":"2025-12-05T20:06:30.729101386+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-05T20:06:30.984379165+01:00","level":"INFO","msg":"stream: created new stream","id":"jgeo33wb"}
+{"time":"2025-12-05T20:06:30.984446842+01:00","level":"INFO","msg":"stream: started","id":"jgeo33wb"}
+{"time":"2025-12-05T20:06:30.984487769+01:00","level":"INFO","msg":"handler: started","stream_id":"jgeo33wb"}
+{"time":"2025-12-05T20:06:30.984494672+01:00","level":"INFO","msg":"writer: started","stream_id":"jgeo33wb"}
+{"time":"2025-12-05T20:06:30.984497287+01:00","level":"INFO","msg":"sender: started","stream_id":"jgeo33wb"}
+{"time":"2025-12-05T20:08:05.007126782+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-05T20:08:05.279199112+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-05T20:08:05.280636264+01:00","level":"INFO","msg":"stream: closing","id":"jgeo33wb"}
+{"time":"2025-12-05T20:08:05.280643257+01:00","level":"INFO","msg":"handler: closed","stream_id":"jgeo33wb"}
+{"time":"2025-12-05T20:08:05.280674546+01:00","level":"INFO","msg":"sender: closed","stream_id":"jgeo33wb"}
+{"time":"2025-12-05T20:08:05.280683262+01:00","level":"INFO","msg":"stream: closed","id":"jgeo33wb"}

@@ -1,0 +1,36 @@
+wandb_version: 1
+
+aug_mode:
+  value: jitter
+batch_size:
+  value: 32
+drop_prob:
+  value: 0.12692913563787986
+dropout:
+  value: 0.4
+embed_dim:
+  value: 64
+epochs:
+  value: 100
+gat_heads:
+  value: 4
+gnn_depth:
+  value: 2
+hard_neg_beta:
+  value: 1
+hidden_dim:
+  value: 128
+jitter:
+  value: 0.06614130195526
+loss_type:
+  value: vicreg
+lr:
+  value: 0.001
+sparsity:
+  value: 0
+tta_steps:
+  value: 5
+use_curriculum:
+  value: true
+weight_decay:
+  value: 0.001

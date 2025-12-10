@@ -1,0 +1,12 @@
+{"time":"2025-12-05T21:47:44.95428463+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-05T21:47:45.210295492+01:00","level":"INFO","msg":"stream: created new stream","id":"ekrljorz"}
+{"time":"2025-12-05T21:47:45.210345497+01:00","level":"INFO","msg":"handler: started","stream_id":"ekrljorz"}
+{"time":"2025-12-05T21:47:45.210417854+01:00","level":"INFO","msg":"stream: started","id":"ekrljorz"}
+{"time":"2025-12-05T21:47:45.210425819+01:00","level":"INFO","msg":"sender: started","stream_id":"ekrljorz"}
+{"time":"2025-12-05T21:47:45.210428635+01:00","level":"INFO","msg":"writer: started","stream_id":"ekrljorz"}
+{"time":"2025-12-05T21:49:30.065320368+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-05T21:49:30.344877916+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-05T21:49:30.346020953+01:00","level":"INFO","msg":"stream: closing","id":"ekrljorz"}
+{"time":"2025-12-05T21:49:30.346027545+01:00","level":"INFO","msg":"handler: closed","stream_id":"ekrljorz"}
+{"time":"2025-12-05T21:49:30.346060097+01:00","level":"INFO","msg":"sender: closed","stream_id":"ekrljorz"}
+{"time":"2025-12-05T21:49:30.34606692+01:00","level":"INFO","msg":"stream: closed","id":"ekrljorz"}

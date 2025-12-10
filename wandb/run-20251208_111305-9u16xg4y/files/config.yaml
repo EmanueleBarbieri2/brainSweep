@@ -1,0 +1,102 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            99k6lk3c7syndibe7in0i8z4spbiv3fn:
+                args:
+                    - --aug_mode=mix
+                    - --batch_size=64
+                    - --drop_prob=0.13695468993394375
+                    - --dropout=0.7
+                    - --embed_dim=32
+                    - --epochs=100
+                    - --hidden_dim=1024
+                    - --loss_type=clip
+                    - --lr=0.0001
+                    - --sparsity=0.2
+                codePath: train_mlp.py
+                codePathLocal: train_mlp.py
+                cpu_count: 6
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "1966736678912"
+                        used: "895521349632"
+                email: emanuele.barbieri2@yahoo.it
+                executable: /home/emanuele/Desktop/brainSweep/.venv/bin/python
+                gpu: AMD Radeon Graphics
+                gpu_amd:
+                    - id: "1"
+                      mclkRange: 0Mhz - 0Mhz
+                      model: "0x13c0"
+                      performanceLevel: auto
+                      sclkRange: 600Mhz - 2200Mhz
+                      series: AMD Radeon Graphics
+                      sku: RAPHAEL
+                      uniqueId: N/A
+                      vbiosVersion: 102-RAPHAEL-008
+                      vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                    - id: "0"
+                      maxPower: "182.0"
+                      model: "0x7590"
+                      performanceLevel: auto
+                      series: AMD Radeon Graphics
+                      sku: 44TC6SHB1
+                      uniqueId: "0xdebe3b5d819cf9c6"
+                      vbiosVersion: 113-44TC6SHB1-P03
+                      vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                gpu_count: 2
+                host: emanuele-X870-EAGLE-WIFI7
+                memory:
+                    total: "32713289728"
+                os: Linux-6.14.0-36-generic-x86_64-with-glibc2.39
+                program: /home/emanuele/Desktop/brainSweep/train_mlp.py
+                python: CPython 3.12.3
+                root: /home/emanuele/Desktop/brainSweep
+                startedAt: "2025-12-08T10:13:05.178807Z"
+                writerId: 99k6lk3c7syndibe7in0i8z4spbiv3fn
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 14
+                - 16
+            "4": 3.12.3
+            "5": 0.23.1
+            "12": 0.23.1
+            "13": linux-x86_64
+aug_mode:
+    value: mix
+batch_size:
+    value: 64
+drop_prob:
+    value: 0.13695468993394375
+dropout:
+    value: 0.7
+embed_dim:
+    value: 32
+epochs:
+    value: 100
+hidden_dim:
+    value: 1024
+jitter:
+    value: 0.05
+loss_type:
+    value: clip
+lr:
+    value: 0.0001
+sparsity:
+    value: 0.2
+vicreg_lambda:
+    value: 25
+vicreg_mu:
+    value: 25
+vicreg_nu:
+    value: 1
+weight_decay:
+    value: 0.0001

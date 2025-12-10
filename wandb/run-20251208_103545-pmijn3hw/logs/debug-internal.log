@@ -1,0 +1,12 @@
+{"time":"2025-12-08T10:35:45.236602662+01:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-08T10:35:45.492230472+01:00","level":"INFO","msg":"stream: created new stream","id":"pmijn3hw"}
+{"time":"2025-12-08T10:35:45.492297943+01:00","level":"INFO","msg":"stream: started","id":"pmijn3hw"}
+{"time":"2025-12-08T10:35:45.492791144+01:00","level":"INFO","msg":"handler: started","stream_id":"pmijn3hw"}
+{"time":"2025-12-08T10:35:45.492836031+01:00","level":"INFO","msg":"sender: started","stream_id":"pmijn3hw"}
+{"time":"2025-12-08T10:35:45.492881779+01:00","level":"INFO","msg":"writer: started","stream_id":"pmijn3hw"}
+{"time":"2025-12-08T10:36:31.001164153+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-12-08T10:36:31.188663005+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-12-08T10:36:31.190677527+01:00","level":"INFO","msg":"stream: closing","id":"pmijn3hw"}
+{"time":"2025-12-08T10:36:31.190685131+01:00","level":"INFO","msg":"handler: closed","stream_id":"pmijn3hw"}
+{"time":"2025-12-08T10:36:31.190712735+01:00","level":"INFO","msg":"sender: closed","stream_id":"pmijn3hw"}
+{"time":"2025-12-08T10:36:31.1907157+01:00","level":"INFO","msg":"stream: closed","id":"pmijn3hw"}

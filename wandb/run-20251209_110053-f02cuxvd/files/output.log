@@ -1,0 +1,34 @@
+--- BrainCLIP Supercharged ---
+Loss: clip | TTA: 1 | Curriculum: False
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Ep 005 | Loss: 2.8513 | Val Top-5: 12.5%
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+  >>> Best Saved! (12.5%)
+Ep 010 | Loss: 2.8148 | Val Top-5: 15.6%
+  >>> Best Saved! (15.6%)
+Ep 015 | Loss: 2.7932 | Val Top-5: 12.5%
+Ep 020 | Loss: 2.7629 | Val Top-5: 25.0%
+  >>> Best Saved! (25.0%)
+Ep 025 | Loss: 2.5901 | Val Top-5: 15.6%
+Ep 030 | Loss: 2.0453 | Val Top-5: 15.6%
+Ep 035 | Loss: 2.0636 | Val Top-5: 21.9%
+Ep 040 | Loss: 1.7077 | Val Top-5: 25.0%
+Ep 045 | Loss: 1.5489 | Val Top-5: 28.1%
+  >>> Best Saved! (28.1%)
+Ep 050 | Loss: 1.3042 | Val Top-5: 25.0%
+Ep 055 | Loss: 1.2523 | Val Top-5: 28.1%
+Ep 060 | Loss: 0.9942 | Val Top-5: 28.1%
+Ep 065 | Loss: 0.8675 | Val Top-5: 28.1%
+Ep 070 | Loss: 0.9191 | Val Top-5: 34.4%
+  >>> Best Saved! (34.4%)
+Ep 075 | Loss: 0.8130 | Val Top-5: 28.1%
+Ep 080 | Loss: 0.6931 | Val Top-5: 25.0%
+Ep 085 | Loss: 0.7284 | Val Top-5: 25.0%
+Ep 090 | Loss: 0.7227 | Val Top-5: 25.0%
+Ep 095 | Loss: 0.6697 | Val Top-5: 28.1%
+Ep 100 | Loss: 0.5656 | Val Top-5: 28.1%

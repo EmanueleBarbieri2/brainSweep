@@ -1,0 +1,34 @@
+--- Weighted Skip GNN Training (Stable) ---
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Ep 005 | Loss: 3.2044 | Top-1: 3.1% | Top-5: 18.8% | MRR: 0.130
+[34m[1mwandb[0m: [33mWARNING[0m Symlinked 1 file into the W&B run directory; call wandb.save again to sync new files.
+  >>> Best Saved! (18.8%)
+Ep 010 | Loss: 2.5948 | Top-1: 3.1% | Top-5: 25.0% | MRR: 0.153
+  >>> Best Saved! (25.0%)
+Ep 015 | Loss: 1.7138 | Top-1: 3.1% | Top-5: 28.1% | MRR: 0.153
+  >>> Best Saved! (28.1%)
+Ep 020 | Loss: 1.2559 | Top-1: 6.2% | Top-5: 31.2% | MRR: 0.196
+  >>> Best Saved! (31.2%)
+Ep 025 | Loss: 1.0111 | Top-1: 6.2% | Top-5: 25.0% | MRR: 0.178
+Ep 030 | Loss: 0.9749 | Top-1: 6.2% | Top-5: 25.0% | MRR: 0.183
+Ep 035 | Loss: 0.7036 | Top-1: 9.4% | Top-5: 28.1% | MRR: 0.226
+Ep 040 | Loss: 0.6516 | Top-1: 9.4% | Top-5: 25.0% | MRR: 0.203
+Ep 045 | Loss: 0.5015 | Top-1: 6.2% | Top-5: 28.1% | MRR: 0.184
+Ep 050 | Loss: 0.5003 | Top-1: 15.6% | Top-5: 28.1% | MRR: 0.251
+Ep 055 | Loss: 0.5534 | Top-1: 6.2% | Top-5: 34.4% | MRR: 0.216
+  >>> Best Saved! (34.4%)
+Ep 060 | Loss: 0.4187 | Top-1: 9.4% | Top-5: 28.1% | MRR: 0.207
+Ep 065 | Loss: 0.3816 | Top-1: 12.5% | Top-5: 34.4% | MRR: 0.234
+Ep 070 | Loss: 0.3012 | Top-1: 12.5% | Top-5: 31.2% | MRR: 0.242
+Ep 075 | Loss: 0.2144 | Top-1: 15.6% | Top-5: 40.6% | MRR: 0.267
+  >>> Best Saved! (40.6%)
+Ep 080 | Loss: 0.2542 | Top-1: 12.5% | Top-5: 31.2% | MRR: 0.244
+Ep 085 | Loss: 0.2287 | Top-1: 15.6% | Top-5: 34.4% | MRR: 0.267
+Ep 090 | Loss: 0.2506 | Top-1: 12.5% | Top-5: 34.4% | MRR: 0.256
+Ep 095 | Loss: 0.2551 | Top-1: 15.6% | Top-5: 28.1% | MRR: 0.262
+Ep 100 | Loss: 0.2362 | Top-1: 15.6% | Top-5: 34.4% | MRR: 0.264

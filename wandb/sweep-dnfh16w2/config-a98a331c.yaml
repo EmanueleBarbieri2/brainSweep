@@ -1,0 +1,36 @@
+wandb_version: 1
+
+aug_mode:
+  value: mix
+batch_size:
+  value: 32
+drop_prob:
+  value: 0.25642410683296424
+dropout:
+  value: 0.4
+embed_dim:
+  value: 32
+epochs:
+  value: 100
+gat_heads:
+  value: 4
+gnn_depth:
+  value: 1
+hard_neg_beta:
+  value: 1
+hidden_dim:
+  value: 32
+jitter:
+  value: 0.05144464588545025
+loss_type:
+  value: vicreg
+lr:
+  value: 0.0003
+sparsity:
+  value: 0.1
+tta_steps:
+  value: 1
+use_curriculum:
+  value: true
+weight_decay:
+  value: 0.001

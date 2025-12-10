@@ -1,0 +1,51 @@
+--- BrainCLIP Sweep ---
+Loss: vicreg | Depth: 2 | Recon W: 0
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Dataset Successfully Loaded.
+ - Found 126 train pairs.
+ - Found 32 val pairs.
+Traceback (most recent call last):
+  File "/home/emanuele/Desktop/brainSweep/train.py", line 236, in <module>
+    main()
+  File "/home/emanuele/Desktop/brainSweep/train.py", line 174, in main
+    for fmri, dti, _ in train_loader:
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 732, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 788, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/home/emanuele/Desktop/brainSweep/dataset.py", line 72, in __getitem__
+    dti = self.load_csv_matrix(self.dti_paths[idx])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/dataset.py", line 60, in load_csv_matrix
+    matrix = df.apply(pd.to_numeric, errors='coerce').fillna(0.0).values
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 10401, in apply
+    return op.apply().__finalize__(self, method="apply")
+           ^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/apply.py", line 916, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/apply.py", line 1063, in apply_standard
+    results, res_index = self.apply_series_generator()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/apply.py", line 1081, in apply_series_generator
+    results[i] = self.func(v, *self.args, **self.kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/tools/numeric.py", line 322, in to_numeric
+    return arg._constructor(values, index=arg.index, name=arg.name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/series.py", line 595, in __init__
+    NDFrame.__init__(self, data)
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/generic.py", line 283, in __init__
+    object.__setattr__(self, "_mgr", data)
+KeyboardInterrupt

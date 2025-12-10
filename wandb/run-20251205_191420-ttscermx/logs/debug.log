@@ -1,0 +1,27 @@
+2025-12-05 19:14:20,494 INFO    MainThread:79998 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-05 19:14:20,494 INFO    MainThread:79998 [wandb_setup.py:_flush():80] Configure stats pid to 79998
+2025-12-05 19:14:20,494 INFO    MainThread:79998 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/.config/wandb/settings
+2025-12-05 19:14:20,494 INFO    MainThread:79998 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/Desktop/brainSweep/wandb/settings
+2025-12-05 19:14:20,494 INFO    MainThread:79998 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-05 19:14:20,494 INFO    MainThread:79998 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251205_191420-ttscermx/logs/debug.log
+2025-12-05 19:14:20,495 INFO    MainThread:79998 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251205_191420-ttscermx/logs/debug-internal.log
+2025-12-05 19:14:20,495 INFO    MainThread:79998 [wandb_init.py:init():841] calling init triggers
+2025-12-05 19:14:20,495 INFO    MainThread:79998 [wandb_init.py:init():846] wandb.init called with sweep_config: {'aug_mode_dti': 'mask_edges', 'aug_mode_fmri': 'mix', 'batch_size': 32, 'dropout': 0.6, 'dti_drop_prob': 0.14163629347293588, 'dti_jitter': 0.02357086731310433, 'embed_dim': 64, 'epochs': 100, 'fmri_drop_prob': 0.28678422755551713, 'fmri_jitter': 0.025476630182169877, 'gat_heads': 2, 'gnn_depth': 4, 'hidden_dim': 128, 'lr': 0.0001, 'recon_weight': 0.5, 'weight_decay': 1e-05}
+config: {'batch_size': 32, 'lr': 0.0001, 'epochs': 100, 'weight_decay': 1e-05, 'gnn_depth': 4, 'hidden_dim': 128, 'embed_dim': 64, 'gat_heads': 2, 'dropout': 0.6, 'aug_mode_fmri': 'mix', 'fmri_drop_prob': 0.28678422755551713, 'fmri_jitter': 0.025476630182169877, 'aug_mode_dti': 'mask_edges', 'dti_drop_prob': 0.14163629347293588, 'dti_jitter': 0.02357086731310433, 'recon_weight': 0.5, 'project_name': 'brain-clip-sweep', '_wandb': {}}
+2025-12-05 19:14:20,495 INFO    MainThread:79998 [wandb_init.py:init():889] starting backend
+2025-12-05 19:14:20,703 INFO    MainThread:79998 [wandb_init.py:init():892] sending inform_init request
+2025-12-05 19:14:20,705 INFO    MainThread:79998 [wandb_init.py:init():900] backend started and connected
+2025-12-05 19:14:20,705 INFO    MainThread:79998 [wandb_run.py:_config_callback():1396] config_cb None None {'aug_mode_dti': 'mask_edges', 'aug_mode_fmri': 'mix', 'batch_size': 32, 'dropout': 0.6, 'dti_drop_prob': 0.14163629347293588, 'dti_jitter': 0.02357086731310433, 'embed_dim': 64, 'epochs': 100, 'fmri_drop_prob': 0.28678422755551713, 'fmri_jitter': 0.025476630182169877, 'gat_heads': 2, 'gnn_depth': 4, 'hidden_dim': 128, 'lr': 0.0001, 'recon_weight': 0.5, 'weight_decay': 1e-05}
+2025-12-05 19:14:20,706 INFO    MainThread:79998 [wandb_init.py:init():970] updated telemetry
+2025-12-05 19:14:20,706 INFO    MainThread:79998 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-05 19:14:21,248 INFO    MainThread:79998 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-05 19:14:21,273 INFO    MainThread:79998 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-05 19:14:21,273 INFO    MainThread:79998 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-05 19:14:21,273 INFO    MainThread:79998 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-05 19:14:21,273 INFO    MainThread:79998 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-05 19:14:21,274 INFO    MainThread:79998 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-05 19:17:21,352 INFO    MainThread:79998 [wandb_run.py:_finish():2287] finishing run emanuele-barbieri2-politecnico-di-torino/uncategorized/ttscermx
+2025-12-05 19:17:21,352 INFO    MainThread:79998 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-05 19:17:21,352 INFO    MainThread:79998 [wandb_run.py:_restore():2468] restore
+2025-12-05 19:17:21,352 INFO    MainThread:79998 [wandb_run.py:_restore():2474] restore done
+2025-12-05 19:17:22,548 INFO    MainThread:79998 [wandb_run.py:_footer_sync_info():3862] logging synced files

@@ -1,0 +1,27 @@
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_setup.py:_flush():80] Current SDK version is 0.23.1
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_setup.py:_flush():80] Configure stats pid to 92686
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/.config/wandb/settings
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_setup.py:_flush():80] Loading settings from /home/emanuele/Desktop/brainSweep/wandb/settings
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_init.py:setup_run_log_directory():714] Logging user logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_121819-gfijefo7/logs/debug.log
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_init.py:setup_run_log_directory():715] Logging internal logs to /home/emanuele/Desktop/brainSweep/wandb/run-20251208_121819-gfijefo7/logs/debug-internal.log
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_init.py:init():841] calling init triggers
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_init.py:init():846] wandb.init called with sweep_config: {'aug_mode': 'mix', 'batch_size': 32, 'drop_prob': 0.1061404624029389, 'dropout': 0.6, 'embed_dim': 64, 'epochs': 100, 'gat_heads': 4, 'gnn_depth': 1, 'hidden_dim': 32, 'jitter': 0.09380989269328788, 'loss_type': 'clip', 'lr': 0.0005, 'recon_weight': 0, 'sparsity': 0, 'weight_decay': 0.0001}
+config: {'batch_size': 32, 'lr': 0.0005, 'epochs': 100, 'weight_decay': 0.0001, 'loss_type': 'clip', 'gnn_depth': 1, 'hidden_dim': 32, 'embed_dim': 64, 'gat_heads': 4, 'dropout': 0.6, 'sparsity': 0.0, 'aug_mode': 'mix', 'drop_prob': 0.1061404624029389, 'jitter': 0.09380989269328788, 'recon_weight': 0.0, 'vicreg_lambda': 25.0, 'vicreg_mu': 25.0, 'vicreg_nu': 1.0, 'project_name': 'brain-clip-sweep', '_wandb': {}}
+2025-12-08 12:18:19,567 INFO    MainThread:92686 [wandb_init.py:init():889] starting backend
+2025-12-08 12:18:19,776 INFO    MainThread:92686 [wandb_init.py:init():892] sending inform_init request
+2025-12-08 12:18:19,778 INFO    MainThread:92686 [wandb_init.py:init():900] backend started and connected
+2025-12-08 12:18:19,778 INFO    MainThread:92686 [wandb_run.py:_config_callback():1396] config_cb None None {'aug_mode': 'mix', 'batch_size': 32, 'drop_prob': 0.1061404624029389, 'dropout': 0.6, 'embed_dim': 64, 'epochs': 100, 'gat_heads': 4, 'gnn_depth': 1, 'hidden_dim': 32, 'jitter': 0.09380989269328788, 'loss_type': 'clip', 'lr': 0.0005, 'recon_weight': 0, 'sparsity': 0, 'weight_decay': 0.0001}
+2025-12-08 12:18:19,779 INFO    MainThread:92686 [wandb_init.py:init():970] updated telemetry
+2025-12-08 12:18:19,779 INFO    MainThread:92686 [wandb_init.py:init():994] communicating run to backend with 90.0 second timeout
+2025-12-08 12:18:20,287 INFO    MainThread:92686 [wandb_init.py:init():1041] starting run threads in backend
+2025-12-08 12:18:20,312 INFO    MainThread:92686 [wandb_run.py:_console_start():2521] atexit reg
+2025-12-08 12:18:20,312 INFO    MainThread:92686 [wandb_run.py:_redirect():2369] redirect: wrap_raw
+2025-12-08 12:18:20,312 INFO    MainThread:92686 [wandb_run.py:_redirect():2438] Wrapping output streams.
+2025-12-08 12:18:20,312 INFO    MainThread:92686 [wandb_run.py:_redirect():2461] Redirects installed.
+2025-12-08 12:18:20,315 INFO    MainThread:92686 [wandb_init.py:init():1081] run started, returning control to user process
+2025-12-08 12:20:18,256 INFO    MainThread:92686 [wandb_run.py:_finish():2287] finishing run emanuele-barbieri2-politecnico-di-torino/uncategorized/gfijefo7
+2025-12-08 12:20:18,256 INFO    MainThread:92686 [wandb_run.py:_atexit_cleanup():2486] got exitcode: 0
+2025-12-08 12:20:18,256 INFO    MainThread:92686 [wandb_run.py:_restore():2468] restore
+2025-12-08 12:20:18,256 INFO    MainThread:92686 [wandb_run.py:_restore():2474] restore done
+2025-12-08 12:20:19,462 INFO    MainThread:92686 [wandb_run.py:_footer_sync_info():3862] logging synced files

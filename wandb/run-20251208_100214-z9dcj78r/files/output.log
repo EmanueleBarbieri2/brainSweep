@@ -1,0 +1,75 @@
+--- BrainCLIP Sweep ---
+Loss: clip | Depth: 2 | Recon W: 0
+Dataset Successfully Loaded.
+  - Found 126 fMRI and 126 DTI files.
+  - Established 126 valid pairs.
+Dataset Successfully Loaded.
+  - Found 32 fMRI and 32 DTI files.
+  - Established 32 valid pairs.
+Dataset Successfully Loaded.
+ - Found 126 train pairs.
+ - Found 32 val pairs.
+Ep 005 | Loss: 2.7812 | Val Top-5: 15.6%
+Ep 010 | Loss: 2.7760 | Val Top-5: 15.6%
+Ep 015 | Loss: 2.7765 | Val Top-5: 15.6%
+Ep 020 | Loss: 2.7758 | Val Top-5: 15.6%
+Traceback (most recent call last):
+  File "/home/emanuele/Desktop/brainSweep/train.py", line 236, in <module>
+    main()
+  File "/home/emanuele/Desktop/brainSweep/train.py", line 174, in main
+    for fmri, dti, _ in train_loader:
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 732, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/torch/utils/data/dataloader.py", line 788, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/home/emanuele/Desktop/brainSweep/dataset.py", line 71, in __getitem__
+    fmri = self.load_csv_matrix(self.fmri_paths[idx])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/dataset.py", line 55, in load_csv_matrix
+    df = pd.read_csv(path, header=None)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1968, in read
+    df = DataFrame(
+         ^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/frame.py", line 782, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy, typ=manager)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/internals/construction.py", line 443, in dict_to_mgr
+    arrays = Series(data, index=columns, dtype=object)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/series.py", line 540, in __init__
+    data, index = self._init_dict(data, index, dtype)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/series.py", line 654, in _init_dict
+    s = Series(values, index=keys, dtype=dtype)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/series.py", line 493, in __init__
+    index = ensure_index(index)
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 7715, in ensure_index
+    return Index(index_like, copy=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 566, in __new__
+    arr = sanitize_array(data, None, dtype=dtype, copy=copy)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/construction.py", line 651, in sanitize_array
+    subarr = maybe_convert_platform(data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py", line 130, in maybe_convert_platform
+    arr = construct_1d_object_array_from_listlike(values)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/emanuele/Desktop/brainSweep/.venv/lib/python3.12/site-packages/pandas/core/dtypes/cast.py", line 1613, in construct_1d_object_array_from_listlike
+    result[i] = obj
+    ~~~~~~^^^
+KeyboardInterrupt
