@@ -1,1 +1,0 @@
-{"_step":119,"val_top1_acc":9.375,"train_loss":44.02819951375326,"val_top5_acc":46.875,"epoch":99,"lr":0,"_timestamp":1.7652884675049517e+09,"val_mrr":0.2471519559621811,"_wandb":{"runtime":240},"_runtime":240}
